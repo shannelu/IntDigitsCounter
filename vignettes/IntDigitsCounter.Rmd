@@ -1,0 +1,27 @@
+---
+title: "IntDigitsCounter"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{IntDigitsCounter}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(IntDigitsCounter)
+```
+
+This is how IntDigitsCounter works:
+
+```{r}
+IntDigitsCounter(c(0.123, 1, -245, 4308.99), na.rm = FALSE)
+IntDigitsCounter(list(0.99, 9.99, 99.99))
+```
+

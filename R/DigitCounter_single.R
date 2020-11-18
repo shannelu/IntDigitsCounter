@@ -1,6 +1,6 @@
 #' Count Numbers of Integer Digits of a Number
 #'
-#' @param data
+#' @param data A numeric value.
 #' @param na.rm A logical input indicating whether missing values should be removed before the computation proceeds.
 #' @param verbose A logical input indicating whether keeps the user up-to-date with messages that print to screen as the function is running.
 #' @param ... Other arguments passed on to methods.
