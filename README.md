@@ -33,6 +33,9 @@ IntDigitsCounter(c(0.123, 1, -245, 4308.99), na.rm = FALSE)
 
 ## Development
 
+*Show the exact code used from usethis or devtools to implement the
+package component:*
+
 ``` r
 # Create package
 devtools::create_package()
@@ -73,9 +76,6 @@ devtools::build_readme()
 # Build all vignettes
 devtools::build_vignettes()
 
-# Include data with the R package
-usethis::use_data()
-
 # Add a code of conduct
 usethis::use_code_of_conduct()
 
@@ -93,3 +93,29 @@ usethis::use_news_md()
 # Add a badge
 usethis::use_lifecycle_badge("Experimental")
 ```
+
+*Describe any manual work done with files:*
+
+  - Write two functions in two separate files, called
+    DigitCounter\_single.R and IntDigitsCounter.R
+
+  - Edit the DESCRIPTION file.
+
+  - Document two functions based on roxygen skeleton.
+
+  - Add test functions in tests/testthat/test-IntDigitsCounter.R
+
+  - Modify the source code of my function so that functions from other
+    packages are called appropriately (e.g. using ::)
+
+  - Modify README.md by briefly explaining how I made each part of my R
+    package.
+
+  - Modify Vignettes/IntDigitsCounter.Rmd to make a short vignette for
+    my package.
+
+  - Modify \_pkgdown.yml when making a package website to give some
+    basic package information.
+
+  - Modify NEWS.md to describe the features of package in current
+    version.
