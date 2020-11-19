@@ -1,12 +1,13 @@
 Package: IntDigitsCounter
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Counting Numbers of Integer Digits
+Version: 0.1.0
 Authors@R: 
     person(given = "Shanny",
            family = "Lu",
            role = c("aut", "cre"),
            email = "lushan0903@gmail.com")
-Description: What the package does (one paragraph).
+Description: Use this package to call functions that help you count the numbers of integer digits
+    of your vectors(or list). 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -19,3 +20,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Depends: R(>= 2.10.0)
