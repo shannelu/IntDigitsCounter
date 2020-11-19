@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/shannelu/IntDigitsCounter.svg?branch=master)](https://travis-ci.com/shannelu/IntDigitsCounter)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of IntDigitsCounter is to count numbers of integer digits.
