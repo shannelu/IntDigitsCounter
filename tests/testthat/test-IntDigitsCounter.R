@@ -1,6 +1,3 @@
-num_vec <- c(0, -4.6, 3.4)
-num_list <- as.list(num_vec)
-
 test_that("numeric vectors work", {
   # Check input with NA with na.rm = FALSE
   expect_error(IntDigitsCounter(c(2, 0, NA, 43478.99), na.rm = FALSE))
