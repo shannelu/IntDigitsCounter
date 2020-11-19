@@ -92,6 +92,7 @@
 <div id="development" class="section level2">
 <h2 class="hasAnchor">
 <a href="#development" class="anchor"></a>Development</h2>
+<p><em>Show the exact code used from usethis or devtools to implement the package component:</em></p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># Create package</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">create_package</span><span class="op">(</span><span class="op">)</span>
@@ -132,9 +133,6 @@
 <span class="co"># Build all vignettes</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">build_vignettes</span><span class="op">(</span><span class="op">)</span>
 
-<span class="co"># Include data with the R package</span>
-<span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_data</span><span class="op">(</span><span class="op">)</span>
-
 <span class="co"># Add a code of conduct</span>
 <span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_code_of_conduct</span><span class="op">(</span><span class="op">)</span>
 
@@ -151,6 +149,18 @@
 
 <span class="co"># Add a badge</span>
 <span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_lifecycle_badge</span><span class="op">(</span><span class="st">"Experimental"</span><span class="op">)</span></code></pre></div>
+<p><em>Describe any manual work done with files:</em></p>
+<ul>
+<li><p>Write two functions in two separate files, called DigitCounter_single.R and IntDigitsCounter.R</p></li>
+<li><p>Edit the DESCRIPTION file.</p></li>
+<li><p>Document two functions based on roxygen skeleton.</p></li>
+<li><p>Add test functions in tests/testthat/test-IntDigitsCounter.R</p></li>
+<li><p>Modify the source code of my function so that functions from other packages are called appropriately (e.g. using ::)</p></li>
+<li><p>Modify README.md by briefly explaining how I made each part of my R package.</p></li>
+<li><p>Modify Vignettes/IntDigitsCounter.Rmd to make a short vignette for my package.</p></li>
+<li><p>Modify _pkgdown.yml when making a package website to give some basic package information.</p></li>
+<li><p>Modify NEWS.md to describe the features of package in current version.</p></li>
+</ul>
 </div>
 </div>
   </div>
