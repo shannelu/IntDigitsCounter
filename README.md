@@ -9,7 +9,11 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of IntDigitsCounter is to count numbers of integer digits.
+The purpose of `IntDigitsCounter` is to provide a tool to count numbers
+of integer digits.
+
+Note: This package is still in its infancy. There are many other
+critical features to come.
 
 ## Installation
 
